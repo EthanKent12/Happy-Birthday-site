@@ -1,0 +1,47 @@
+/* CSS for main page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0; /* Light gray background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+#cake-drawing {
+    width: 200px;
+    height: 200px;
+    background-image: url('cake.svg'); /* Replace with path to cake SVG */
+    background-size: contain;
+    opacity: 0;
+}
+
+#click-me-text {
+    font-size: 24px;
+    color: #ff69b4; /* Hot pink text color */
+    cursor: pointer;
+    margin-top: 20px;
+    align-self: center;
+}
+/* CSS for new page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #42a5f5; /* Blue background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+#writeup-section {
+    text-align: center;
+    color: #fff; /* White text color */
+    margin-bottom: 20px;
+}
+
+audio {
+    display: none; /* Hide the audio player */
+}
+
